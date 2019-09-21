@@ -1,0 +1,149 @@
+h1
+{
+	font-family: "Arial";
+	color:white;
+	text-align:center;
+}
+
+.s1
+{
+	background-image: url('images/bg.jpeg');
+	background-size:cover;
+
+}
+
+.s2
+{
+	background-image: url('https://images.pexels.com/photos/2194062/pexels-photo-2194062.jpeg?cs=srgb&dl=code-coder-codes-2194062.jpg&fm=jpg');
+	background-size:cover;
+}
+
+.s3
+{
+	background-image: url('https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?cs=srgb&dl=computer-keyboard-connection-contemporary-1714208.jpg&fm=jpg');
+	background-size:cover;
+}
+
+.s4
+{
+	background-image: url('https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?cs=srgb&dl=computer-hands-laptop-2115217.jpg&fm=jpg');
+	background-size:cover;
+}
+
+.s5
+{
+	background-image: url('https://images.pexels.com/photos/2588756/pexels-photo-2588756.jpeg?cs=srgb&dl=capacitors-chip-circuit-2588756.jpg&fm=jpg');
+	background-size:cover;
+}
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span
+{
+	background:white;
+}
+
+
+
+.fp-controlArrow.fp-next {
+    right: 65px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent black;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 65px;
+    border-width: 38.5px 34px 38.5px 0px;
+    border-color: transparent black;
+}
+
+
+
+#fp-nav ul, .fp-slidesNav ul {
+    
+    margin: 0 auto;
+    padding: 0;
+    width:30%;
+    text-align:center;
+}
+
+
+
+.logo
+{
+  width:30%;
+  padding:5% 5% 5% 0%;
+  float:left;
+  position:relative;
+  left:10%;
+  
+}
+
+.logo img
+{
+	max-width:100%;
+	height: auto;
+}
+
+.tag_line
+{
+  width:30%;
+  height: auto;
+  background-color:rgba(255,255,255,0.3);
+  float:right;
+  position:relative;
+  
+  right:10%;
+  text-align:center;
+  font-family:'Microsoft JhengHei Light';
+  font-size:2vw;
+  border-radius:20px;
+  padding:2%;
+}
+
+.tag_line p
+{
+	line-height: 60px;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width:1000px)
+{
+	
+	.tag_line p
+	{
+		line-height:45px;
+	}
+}
+
+
+@media screen and (max-width:800px)
+{
+	.logo
+	{
+
+		display:block;
+		width:75%;
+  		position:relative;
+  		left:10%;
+	}
+
+	.tag_line
+	{
+		display:block;
+		width:75%;
+		/*background-color:rgba(255,255,255,0.3);
+		position:relative;
+		margin:0 auto;
+		text-align:center;
+		font-family:'Microsoft JhengHei Light';
+		font-size:2vw;
+		border-radius:20px;
+		padding:2%;*/
+		position:relative;
+		right:10%;
+		font-size:4vw;
+		margin: 10% 0 0 0;
+		
+	}
+}

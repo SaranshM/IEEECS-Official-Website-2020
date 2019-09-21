@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Hello</title>
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css">
+   <link rel="stylesheet" type="text/css" href="css.css?version=1">
+</head>
+<body>
+   <div id="fullpage">
+      <div class="section s1" class="active">
+         <div class="wrapper">
+            <div class="logo">
+               <img src="images/ieeecs.png" alt="ieeecs">
+            </div>
+            <div class="tag_line">
+               <p>AN ELITE GROUP OF ENGINEERS WHO SPECIALIZE IN
+COMPUTER SCIENCE.</p>
+            </div>
+         </div>
+      </div>
+      <div class="section s2">
+         <div class="slide">
+            <h1>ABOUT US</h1>
+         </div>
+         <div class="slide">
+            <h1>ABOUT US 1</h1>
+         </div>
+         <div class="slide">
+            <h1>ABOUT US 2</h1>
+         </div>
+      </div>
+      <div class="section s3">
+         <h1>EVENTS</h1>
+      </div>
+      <div class="section s4">
+         <h1>GALLERY</h1>
+      </div>
+      <div class="section s5">
+         <h1>GAME</h1>
+      </div>
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"></script>
+   <script>
+      new fullpage('#fullpage',{
+         autoscrolling:true,
+         scrollHorizontally:true,
+         navigation:true,
+         anchors:['section1','section2','section3'],
+         navigationTooltips:['HOME','ABOUT US','EVENTS','GALLERY','GAME'],
+         showActiveTooltip:true,
+         slidesNavigation:true,
+         controlArrows:false
+         
+
+      });
+   </script>
+
+</body>
+</html>
