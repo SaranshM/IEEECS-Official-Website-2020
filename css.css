@@ -1,38 +1,40 @@
+
+
 h1
 {
-	font-family: "Arial";
+	font-family: 'Montserrat', sans-serif;
 	color:white;
 	text-align:center;
 }
 
 .s1
 {
-	background-image: url('images/bg.jpeg');
+	background-color:#333333;
 	background-size:cover;
 
 }
 
 .s2
 {
-	background-image: url('https://images.pexels.com/photos/2194062/pexels-photo-2194062.jpeg?cs=srgb&dl=code-coder-codes-2194062.jpg&fm=jpg');
+	background-color:#012A36;
 	background-size:cover;
 }
 
 .s3
 {
-	background-image: url('https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?cs=srgb&dl=computer-keyboard-connection-contemporary-1714208.jpg&fm=jpg');
+	background-color:#00A6A6;
 	background-size:cover;
 }
 
 .s4
 {
-	background-image: url('https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?cs=srgb&dl=computer-hands-laptop-2115217.jpg&fm=jpg');
+	background-color:#0B5351;
 	background-size:cover;
 }
 
 .s5
 {
-	background-image: url('https://images.pexels.com/photos/2588756/pexels-photo-2588756.jpeg?cs=srgb&dl=capacitors-chip-circuit-2588756.jpg&fm=jpg');
+	background-color:#5F536A;
 	background-size:cover;
 }
 
@@ -92,7 +94,8 @@ h1
 {
   width:30%;
   height: auto;
-  background-color:rgba(255,255,255,0.3);
+  /*background-color:rgba(255,255,255,0.3);*/
+  background-image:-webkit-linear-gradient(top,#777777,#333333 93%);
   float:right;
   position:relative;
   
@@ -100,10 +103,10 @@ h1
   text-align:center;
   font-family:'Microsoft JhengHei Light';
   font-size:2.5vw;
-  border-radius:15px;
+  border-radius:3px;
   padding:2%;
-  border:solid;
-  border-width:4px 0px 0px 0px;
+  border:solid #FAA41A;
+  border-width:6px 0px 0px 0px;
   opacity:0;
   animation:tag_line 1.5s;
   animation-fill-mode:forwards;
@@ -113,6 +116,7 @@ h1
 {
 	line-height: 90px;
 	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -161,6 +165,7 @@ h1
 		
 	}
 
+
 	@keyframes logoa
 	{
 		100%
@@ -192,6 +197,7 @@ h1
 	100%
 	{
 		opacity:1;
-		right:12%;
+		right:14%;
 	}
 }
+
