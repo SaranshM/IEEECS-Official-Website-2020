@@ -75,6 +75,10 @@ h1
   float:left;
   position:relative;
   left:10%;
+  opacity:0;
+  animation:logo 1s;
+  animation-fill-mode:forwards;
+
   
 }
 
@@ -92,17 +96,22 @@ h1
   float:right;
   position:relative;
   
-  right:10%;
+  right:-35%;
   text-align:center;
   font-family:'Microsoft JhengHei Light';
-  font-size:2vw;
-  border-radius:20px;
+  font-size:2.5vw;
+  border-radius:15px;
   padding:2%;
+  border:solid;
+  border-width:4px 0px 0px 0px;
+  opacity:0;
+  animation:tag_line 1.5s;
+  animation-fill-mode:forwards;
 }
 
 .tag_line p
 {
-	line-height: 60px;
+	line-height: 90px;
 	font-weight: bold;
 }
 
@@ -126,6 +135,8 @@ h1
 		width:75%;
   		position:relative;
   		left:10%;
+  		animation:logoa 1s;
+  		animation-fill-mode:forwards;
 	}
 
 	.tag_line
@@ -141,9 +152,46 @@ h1
 		border-radius:20px;
 		padding:2%;*/
 		position:relative;
-		right:10%;
+		right:-100%;
+		opacity:0;
 		font-size:4vw;
 		margin: 10% 0 0 0;
+		animation:tag_linea 1s;
+		animation-fill-mode:forwards;
 		
+	}
+
+	@keyframes logoa
+	{
+		100%
+		{
+			opacity:1;
+		}
+	}
+
+	@keyframes tag_linea
+	{
+		100%
+		{
+			opacity:1;
+			right:10%;
+		}
+	}
+}
+
+@keyframes logo
+{
+	100%
+	{
+		opacity:1;
+	}
+}
+
+@keyframes tag_line
+{
+	100%
+	{
+		opacity:1;
+		right:12%;
 	}
 }
