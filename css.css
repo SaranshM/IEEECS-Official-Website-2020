@@ -1,8 +1,16 @@
-
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family: 'Montserrat', sans-serif;
+}
 
 h1
 {
-	font-family: 'Montserrat', sans-serif;
+	
 	color:white;
 	text-align:center;
 }
@@ -16,13 +24,13 @@ h1
 
 .s2
 {
-	background-color:#012A36;
+	background-color:red;
 	background-size:cover;
 }
 
 .s3
 {
-	background-color:#00A6A6;
+	background-image:-webkit-linear-gradient(0deg,rgb(47,69,100),rgb(116,148,190));
 	background-size:cover;
 }
 
@@ -118,6 +126,78 @@ h1
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
+
+#event
+{
+	position: relative;
+	top:-1%;
+	font-size:400%;
+	
+}
+
+.event_div
+{
+	position: relative;
+	top:2%;
+	margin:0 auto 1% auto;
+	width:80%;
+	padding:0.5% 2% 8% 2%;
+	background-color:rgba(233,233,233,1);
+	border-radius:15px 15px 15px 15px;
+}
+
+
+.event_div .event_info
+{
+	margin-top:2%;
+	float:left;
+}
+
+.event_div .event_info h2
+{
+	font-size:200%;
+
+}
+
+.event_div .event_info h3
+{
+	color:grey;
+}
+
+.event_div .event_disc
+{
+	float:right;
+	color:#333333;
+	width:70%;
+	font-size:120%;
+	line-height: 150%;
+}
+
+
+
+
+
+/*.event_div
+{
+	position: relative;
+	top:4%;
+	left:5%;
+	width:70%;
+	margin:0 auto 2% auto;
+}
+
+.event_info h2
+{
+	font-size:200%;
+}
+
+.event_info
+{
+	float:left;
+
+}*/
+
+
 
 
 @media screen and (max-width:1000px)
