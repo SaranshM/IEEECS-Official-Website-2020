@@ -6,13 +6,14 @@
    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css">
    <link rel="stylesheet" type="text/css" href="css.css?version=2">
+   <link rel="stylesheet" type="text/css" href="animate.css">
 </head>
 <body>
    <div id="fullpage">
       <div class="section s1" class="active">
          <div class="wrapper">
             <div class="logo">
-               <img src="images/IEEE-CS_New.png" alt="ieeecs">
+               <img src="images/IEEE-CS_New.png" alt="ieeecs" class="wow zoomIn">
             </div>
             <div class="tag_line">
                <p>AN ELITE GROUP OF ENGINEERS WHO SPECIALIZE IN
@@ -32,7 +33,38 @@ COMPUTER SCIENCE.</p>
          </div>
       </div>
       <div class="section s3">
-         <h1>EVENTS</h1>
+         <h1 id="event" >EVENTS</h1>
+         <div class="event_div wow lightSpeedIn delay">
+         	<div class="event_info">
+          		<h2>Riviera '17</h2>
+         		<h3>February '17</h3>
+         	</div>
+         	<p class="event_disc">Riviera is the Annual International Sports and Cultural Carnival of the VIT University. In the spirit of the carnival, IEEE- Computer Society organizes informal events for the students.
+For Riviera '17, IEEE-CS organized two events:
+Jumble Ball
+50-ka-funda.</p>
+         </div>
+        <div class="event_div wow lightSpeedIn delay-1s">  
+        	<div class="event_info">    	
+         		<h2>ARCS '17</h2>
+         		<h3>March '17</h3>
+         	</div>
+           	<p class="event_disc">ARCS is a technical colloquium hosted by IEEE-Computer Society (VIT), which aims at improving the knowledge of the young enthusiastic minds. The 2017 edition of ARCS had three workshops and one hack-a-thon.</p>
+         </div>
+         <div class="event_div wow lightSpeedIn delay-2s">  
+        	<div class="event_info">    	
+         		<h2>Mechnovate '17</h2>
+         		<h3>March '17</h3>
+         	</div>
+           	<p class="event_disc">Mechnovate '17, an international mechanical symposium organised by ASME-VIT was the fourth edition of its kind. It attracted 2000+ students from around the country. As ASME VIT's technical partners, IEEE- Computer Society ensured smooth functioning of their online portal and website.</p>
+         </div>
+         <div class="event_div wow lightSpeedIn delay-3s">  
+        	<div class="event_info">    	
+         		<h2>ICMMM '17</h2>
+         		<h3>March '17</h3>
+         	</div>
+           	<p class="event_disc">Team RoverX, a part of Creation Labs in VIT University is a group of young, enthusiastic individuals who build Mars rovers by the year to display and compete at various platforms. Their prototype is used to compete in different international competitions including URC, ERC and UKURC.</p>
+         </div>
       </div>
       <div class="section s4">
          <h1>GALLERY</h1>
@@ -46,6 +78,7 @@ COMPUTER SCIENCE.</p>
    <script>
       new fullpage('#fullpage',{
          autoscrolling:true,
+         scrollBar:true,
          scrollHorizontally:true,
          navigation:true,
          anchors:['section1','section2','section3'],
@@ -57,6 +90,10 @@ COMPUTER SCIENCE.</p>
 
       });
    </script>
+   <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </body>
 </html>
