@@ -42,7 +42,347 @@ h1
 
 .s5
 {
+	background-color:#5F536A;*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+	
+	color:white;
+	text-align:center;
+}
+
+.s1
+{
+	background-color:#333333;
+	background-size:cover;
+
+}
+
+.s2
+{
+	background-color:red;
+	background-size:cover;
+}
+
+.s3
+{
+	background-image:-webkit-linear-gradient(0deg,rgb(47,69,100),rgb(116,148,190));
+	background-size:cover;
+}
+
+.s4
+{
+	background-color:#0B5351;
+	background-size:cover;
+}
+
+.s5
+{
 	background-color:#5F536A;
+	background-size:cover;
+}
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span
+{
+	background:white;
+}
+
+
+
+.fp-controlArrow.fp-next {
+    right: 65px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent black;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 65px;
+    border-width: 38.5px 34px 38.5px 0px;
+    border-color: transparent black;
+}
+
+
+
+#fp-nav ul, .fp-slidesNav ul {
+    
+    margin: 0 auto;
+    padding: 0;
+    width:30%;
+    text-align:center;
+}
+
+
+
+.logo
+{
+  width:30%;
+  padding:5% 5% 5% 0%;
+  float:left;
+  position:relative;
+  left:10%;
+  opacity:0;
+  animation:logo 1s;
+  animation-fill-mode:forwards;
+
+  
+}
+
+.logo img
+{
+	max-width:100%;
+	height: auto;
+}
+
+.tag_line
+{
+  width:30%;
+  height: auto;
+  /*background-color:rgba(255,255,255,0.3);*/
+  background-image:-webkit-linear-gradient(top,#777777,#333333 93%);
+  float:right;
+  position:relative;
+  
+  right:-35%;
+  text-align:center;
+  font-family:'Microsoft JhengHei Light';
+  font-size:2.5vw;
+  border-radius:3px;
+  padding:2%;
+  border:solid #FAA41A;
+  border-width:6px 0px 0px 0px;
+  opacity:0;
+  animation:tag_line 1.5s;
+  animation-fill-mode:forwards;
+}
+
+.tag_line p
+{
+	line-height: 90px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#event
+{
+	position: relative;
+	top:-1%;
+	font-size:5vw;
+	
+}
+
+.event_div
+{
+	position: relative;
+	top:2%;
+	margin:0 auto 1% auto;
+	width:80%;
+	padding:0.5% 2% 8% 2%;
+	background-color:rgba(233,233,233,1);
+	border-radius:15px 15px 15px 15px;
+}
+
+
+.event_div .event_info
+{
+	margin-top:2%;
+	float:left;
+}
+
+.event_div .event_info h2
+{
+	font-size:2.5vw;
+
+}
+
+.event_div .event_info h3
+{
+	color:grey;
+	font-size: 1.5vw;
+}
+
+.event_div .event_disc
+{
+	float:right;
+	color:#333333;
+	width:70%;
+	font-size:1.2vw;
+	line-height: 150%;
+}
+
+
+
+@media screen and (max-width:1100px)
+{
+
+	#event
+	{
+		position: relative;
+		top:0%;
+		font-size:6vw;
+	}
+
+	.event_div
+	{
+		position: relative;
+		top:3%;
+		margin:0 auto 2% auto;
+		width:85%;
+		padding:1.5% 3% 11% 3%;
+		background-color:rgba(233,233,233,1);
+		border-radius:10px 10px 10px 10px;
+	}
+
+	.event_div .event_info h2
+	{
+		font-size:2.8vw;
+
+	}
+	
+	.event_div .event_info h3
+	{
+		color:grey;
+		font-size: 1.8vw;
+	}
+
+	.event_div .event_disc
+	{
+		float:right;
+		color:#333333;
+		width:70%;
+		font-size:1.3vw;
+		line-height: 150%;
+	}
+
+	.tag_line p
+	{
+		line-height:45px;
+	}
+}
+
+
+@media screen and (max-width:650px)
+{
+
+	#event
+	{
+		position: relative;
+		top:0%;
+		font-size:8vw;
+	}
+
+	.event_div
+	{
+		position: relative;
+		top:3%;
+		margin:0 auto 2% auto;
+		width:85%;
+		padding:1.5% 3% 20% 3%;
+		background-color:rgba(233,233,233,1);
+		border-radius:7px 7px 7px 7px;
+	}
+
+	.event_div .event_info h2
+	{
+		font-size:2.5vw;
+
+	}
+	
+	.event_div .event_info h3
+	{
+		color:grey;
+		font-size: 2vw;
+	}
+
+	.event_div .event_disc
+	{
+		float:right;
+		color:#333333;
+		width:70%;
+		font-size:2vw;
+		line-height: 160%;
+	}
+
+	.logo
+	{
+
+		display:block;
+		width:75%;
+  		position:relative;
+  		left:10%;
+  		animation:logoa 1s;
+  		animation-fill-mode:forwards;
+	}
+
+	.tag_line
+	{
+		display:block;
+		width:75%;
+		/*background-color:rgba(255,255,255,0.3);
+		position:relative;
+		margin:0 auto;
+		text-align:center;
+		font-family:'Microsoft JhengHei Light';
+		font-size:2vw;
+		border-radius:20px;
+		padding:2%;*/
+		position:relative;
+		right:-100%;
+		opacity:0;
+		font-size:4vw;
+		margin: 10% 0 0 0;
+		animation:tag_linea 1s;
+		animation-fill-mode:forwards;
+		
+	}
+
+
+
+
+	@keyframes logoa
+	{
+		100%
+		{
+			opacity:1;
+		}
+	}
+
+	@keyframes tag_linea
+	{
+		100%
+		{
+			opacity:1;
+			right:10%;
+		}
+	}
+}
+
+@keyframes logo
+{
+	100%
+	{
+		opacity:1;
+	}
+}
+
+@keyframes tag_line
+{
+	100%
+	{
+		opacity:1;
+		right:14%;
+	}
+}
+
+
 	background-size:cover;
 }
 
