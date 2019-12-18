@@ -368,10 +368,10 @@ body
 	.aboutus1
 	{
 		border:solid;
-		padding:6%;
+		padding:8%;
 		top:2.5%;
-		left:20%;
-		width:70%;
+		left:4%;
+		width:90%;
 		background-color: black;
 		border-radius:10px 0px 0px 10px;
 
@@ -400,7 +400,7 @@ body
 		letter-spacing:0px;
 		line-height: 170%;
 		margin:0 0 8% 0;
-		font-size: 1em;		
+		font-size: 1.1em;		
 		color:rgb(255,255,255);
 		
 	}
@@ -415,7 +415,7 @@ body
 		position: relative;
 		top:-15px;
 		width:70%;
-		left:10%;
+		left:6%;
 		max-width: 100%;
 		height: auto;
 		
@@ -866,7 +866,7 @@ button
 .end
 {
 	position: absolute;
-	top:4850px;
+	top:5450px;
 	width:70%;
 	text-align: center;
 	margin-left:15%;
@@ -892,7 +892,7 @@ button
 	}
 }
 
-@media only screen and (max-width:1000px)
+@media only screen and (max-width:1054px)
 {
 
 
@@ -908,10 +908,10 @@ button
 		margin-bottom:7%;
 	}
 
-	/*.end
+	.end
 	{
-		margin-top:5%;
-	}*/
+		top:5500px;
+	}
 
 }
 
@@ -945,9 +945,17 @@ button
 	.end
 	{
 		position: absolute;
-		top:5300px;
+		top:5700px;
 	}
 
+}
+
+@media only screen and (max-width:943px)
+{
+	.end
+	{
+		top:5800px;
+	}
 }
 
 
@@ -957,7 +965,7 @@ button
 	.end
 	{
 		
-		margin-top:70%;
+		margin-top:85%;
 		
 	}
 }
@@ -983,8 +991,16 @@ button
 
 	.end
 	{
-		top:5450px;
+		top:5900px;
 		margin-left:13%;
+	}
+}
+
+@media only screen and (max-width:750px)
+{
+	.end
+	{
+		top:6000px;
 	}
 }
 
@@ -994,6 +1010,31 @@ button
 	{
 		position: absolute;
 		margin-top:450%;
+	}
+}
+
+
+@media only screen and (max-width:450px)
+{
+	.end
+	{
+		top:6100px;
+	}
+}
+
+@media only screen and (max-width:400px)
+{
+	.end
+	{
+		top:6300px;
+	}
+}
+
+@media only screen and (max-width:375px)
+{
+	.end
+	{
+		top:6400px;
 	}
 }
 
