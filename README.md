@@ -1,1 +1,1 @@
-# ieeecs-site-frontend
+Official Webiste of IEEECS-VIT 2020
